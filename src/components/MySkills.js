@@ -36,10 +36,10 @@ const MySkills = () => {
   </motion.div>
 </div>
 <br/>
-            <h5>React+Redux</h5> 
+            <h5>React</h5> 
             <div class="progress" style={{border:3+"px solid black"}}>
   <motion.div initial={{width:0}}
-                animate={{width:70+"%"}} 
+                animate={{width:40+"%"}} 
                 transition={{type:"spring",duration:0.5,delay:0}}
              class="progress-bar" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:70+"%",borderRight:3+"px solid black",backgroundColor:"grey"}}>
@@ -50,7 +50,7 @@ const MySkills = () => {
             <h5>Node+Mongodb+Express</h5> 
             <div class="progress" style={{border:3+"px solid black"}}>
   <motion.div initial={{width:0}}
-                animate={{width:80+"%"}} 
+                animate={{width:40+"%"}} 
                 transition={{type:"spring",duration:0.5,delay:0}}
              class="progress-bar" role="progressbar" aria-valuenow="70"
   aria-valuemin="0" aria-valuemax="100" style={{width:80+"%",borderRight:3+"px solid black",backgroundColor:"grey"}}>
@@ -102,7 +102,7 @@ Html, Css, Js, React, Redux, Nodejs, Express, Bootstrap, Mongodb, Angular etc.
                 <div className="icon1">
                 <Link id="icon1main" style={{
                     color:"black"
-                }} to="https://github.com/preyanshu" target='true'>   <motion.i  initial={{height:0}}
+                }} to="https://github.com/Salvadorguns" target='true'>   <motion.i  initial={{height:0}}
                 animate={{height:"20px"}} 
                 transition={{type:"spring",duration:1.5,delay:0}}class="fa-brands fa-github fa-2xl"></motion.i> </Link>
 
@@ -110,7 +110,7 @@ Html, Css, Js, React, Redux, Nodejs, Express, Bootstrap, Mongodb, Angular etc.
                 <div className="icon2">
                 <Link id="icon2main"style={{
                     color:"black"
-                }} to="https://www.instagram.com/_preyanshu/" target='true'>
+                }} to="https://www.instagram.com/shashwat.sharma22/" target='true'>
                 <motion.i initial={{height:0}}
     animate={{height:"20px"}} 
     transition={{type:"spring",duration:1.5,delay:0}} class="fa-brands fa-instagram fa-2xl"></motion.i> </Link>
@@ -119,7 +119,7 @@ Html, Css, Js, React, Redux, Nodejs, Express, Bootstrap, Mongodb, Angular etc.
                 <div className="icon3">
                 <Link id="icon3main"style={{
                     color:"black"
-                }} to="https://www.linkedin.com/in/preyanshu-mishra-909772212/" target='true'>
+                }} to="https://www.linkedin.com/in/shashwat-sharma-692128218/" target='true'>
                 <motion.i initial={{height:0}}
     animate={{height:"20px"}} 
     transition={{type:"spring",duration:1.5,delay:0}} class="fa-brands fa-linkedin-in fa-2xl"></motion.i></Link>

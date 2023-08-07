@@ -85,7 +85,7 @@ const Main = () => {
     <h1 className="text-center"><b>Menu</b></h1>
 <ul class="list-group  my-3 mt-3">
 <Link to="/"><motion.li whileHover={{scale:1.1}} whileTap={{scale:0.9}} animate={{duration:1,delay:0}}class="list-group-item mt-3"> <i class="fa-solid fa-link fa-lg"></i>   Resume.(soon)</motion.li></Link>
-    <Link to="/projects"><motion.li whileHover={{scale:1.1}} whileTap={{scale:0.9}} animate={{duration:1,delay:0}} class="list-group-item mt-3" > <i class="fa-solid fa-play fa-lg"></i>     Projects.</motion.li></Link>
+    <Link to="/"><motion.li whileHover={{scale:1.1}} whileTap={{scale:0.9}} animate={{duration:1,delay:0}} class="list-group-item mt-3" > <i class="fa-solid fa-play fa-lg"></i>     Projects.(soon)</motion.li></Link>
     <Link to="/skills"><motion.li whileHover={{scale:1.1}} whileTap={{scale:0.9}} animate={{duration:1,delay:0}}class="list-group-item mt-3"> <i class="fa-solid fa-play fa-lg"></i>     Skills.</motion.li></Link>
     <Link to="/about"><motion.li whileHover={{scale:1.1}} whileTap={{scale:0.9}} animate={{duration:1,delay:0}}class="list-group-item mt-3"> <i class="fa-solid fa-play fa-lg"></i>     About.</motion.li></Link>
    
@@ -107,7 +107,7 @@ const Main = () => {
                 <div className="icon1">
                 <Link id="icon1main" style={{
                     color:`${(click&&window.screen.width>800)?"white":"black"}`
-                }} to="https://github.com/preyanshu" target='true'>   <motion.i initial={{height:0}}
+                }} to="https://github.com/Salvadorguns" target='true'>   <motion.i initial={{height:0}}
                 animate={{height:"20px"}} 
                 transition={{type:"spring",duration:1.5,delay:0}}   class="fa-brands fa-github fa-2xl"></motion.i> </Link>
 
@@ -115,7 +115,7 @@ const Main = () => {
                 <div className="icon2">
                 <Link id="icon2main"style={{
                     color:`${(click&&window.screen.width>800)?"white":"black"}`
-                }} to="https://www.instagram.com/_preyanshu/" target='true'>
+                }} to="https://www.instagram.com/shashwat.sharma22/" target='true'>
                 <motion.i  initial={{height:0}}
     animate={{height:"20px"}} 
     transition={{type:"spring",duration:1.5,delay:0}} class="fa-brands fa-instagram fa-2xl"></motion.i> </Link>
@@ -124,7 +124,7 @@ const Main = () => {
                 <div className="icon3">
                 <Link id="icon3main"style={{
                     color:`${(click&&window.screen.width>800)?"white":"black"}`
-                }} to="https://www.linkedin.com/in/preyanshu-mishra-909772212/" target='true'>
+                }} to="https://www.linkedin.com/in/shashwat-sharma-692128218/" target='true'>
                 <motion.i initial={{height:0}}
     animate={{height:"20px"}} 
     transition={{type:"spring",duration:1.5,delay:0}} class="fa-brands fa-linkedin-in fa-2xl"></motion.i></Link>
@@ -138,7 +138,7 @@ const Main = () => {
                 whileHover={{scale:1.1}}
                 whileTap={{scale:0.9}}
                 
-                ><Link to="mailto:mishrapreyanshu@gmail.com" target="_blank" rel="noopener noreferrer" style={{color:"black"}}>Say hi..</Link></motion.h4>
+                ><Link to="mailto:shashwatsharmass30@gmail.com" target="_blank" rel="noopener noreferrer" style={{color:"black"}}>Say hi on Email..</Link></motion.h4>
             </div>
 
             {click&&<Intro click={click}/>}
@@ -151,7 +151,8 @@ const Main = () => {
       
     </motion.div>}
 
-    {!loading&&<div className='black23'>loading..</div>}
+    {!loading&&<div className='black23'>loading Please Wait..</div>}
+
     
     </>)
 }

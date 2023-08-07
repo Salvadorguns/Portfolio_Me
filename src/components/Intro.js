@@ -13,8 +13,8 @@ const Intro = () => {
       <div className="subbox">
         <div className="text">
           <h1>Hi,</h1>
-          <h3>I,m Preyanshu</h3>
-          <h6>I,m a fullstack mern developer and love bring life into my ideas</h6>
+          <h3>I,m Shashwat Sharma</h3>
+          <h6>I,m a fullstack  developer and love bring life into my ideas</h6>
           
         </div>
       </div>
