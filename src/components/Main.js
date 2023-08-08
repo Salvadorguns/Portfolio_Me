@@ -87,7 +87,7 @@ const Main = () => {
 <Link to="/"><motion.li whileHover={{scale:1.1}} whileTap={{scale:0.9}} animate={{duration:1,delay:0}}class="list-group-item mt-3"> <i class="fa-solid fa-link fa-lg"></i>   Resume.(soon)</motion.li></Link>
     <Link to="/"><motion.li whileHover={{scale:1.1}} whileTap={{scale:0.9}} animate={{duration:1,delay:0}} class="list-group-item mt-3" > <i class="fa-solid fa-play fa-lg"></i>     Projects.(soon)</motion.li></Link>
     <Link to="/skills"><motion.li whileHover={{scale:1.1}} whileTap={{scale:0.9}} animate={{duration:1,delay:0}}class="list-group-item mt-3"> <i class="fa-solid fa-play fa-lg"></i>     Skills.</motion.li></Link>
-    <Link to="/about"><motion.li whileHover={{scale:1.1}} whileTap={{scale:0.9}} animate={{duration:1,delay:0}}class="list-group-item mt-3"> <i class="fa-solid fa-play fa-lg"></i>     About.</motion.li></Link>
+    <Link to="/about"><motion.li whileHover={{scale:1.1}} whileTap={{scale:0.9}} animate={{duration:1,delay:0}}class="list-group-item mt-3 "> <i class="fa-solid fa-play fa-lg"></i>     About.</motion.li></Link>
    
   
   

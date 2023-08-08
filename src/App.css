@@ -672,3 +672,41 @@ a{
 a:hover{
   color: currentColor;
 }
+.sound a{
+  color: black;
+  text-decoration: none;
+}
+a{
+  color: currentColor;
+}
+a:hover{
+  color: currentColor;
+}
+
+
+.sound{
+  position: fixed;
+  /* right: 1px; */
+  top: 4.5rem;
+  left: 0.8rem;
+  /* text-emphasis: bold; */
+  
+  
+
+}
+.sound h4{
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.2s;
+
+}
+.sound h4 {
+  font-weight: bold;
+  text-shadow: 1px 1px whitesmoke;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 13px;
+  top: 23px;
+  margin: 0px;
+  margin-top: 10px;
+}

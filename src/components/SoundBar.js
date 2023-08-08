@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import styled, { keyframes } from 'styled-components'
+import {motion} from "framer-motion";
 
 // import music from "../assets/audio/u-said-it-v13-1167.mp3"
 
@@ -73,7 +74,15 @@ const SoundBar = () => {
             <Line click={click}/>
 
 
-            <audio src="Countdown (192 kbps).mp3" ref={ref}  loop />
+            <audio src="sound.mp3" ref={ref}  loop />
+           
+            <div className="sound">
+            <motion.h4 data-aos="fade-left"
+                whileHover={{scale:1.1}}
+                whileTap={{scale:0.9}}>
+                     <h2 id='soundbox'>Sound</h2>
+                </motion.h4>
+                </div>
         </Box>
     )
 }
