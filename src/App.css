@@ -627,8 +627,8 @@ body{
 }
 .list-group-item{
   border: 2px solid black;
-  /* border-top-width: 2px; */
-  border-top: 2px solid black;
+  /* border-top: 2px solid black; */
+
 }
 .list-group-item+.list-group-item {
   border-top-width: 2px;
@@ -636,6 +636,7 @@ body{
 .list-group-item:hover{
   border: 2px solid white;
   background-color: black;
+  border-radius: 60px;
   color: white;
  
 }
