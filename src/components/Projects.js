@@ -22,14 +22,14 @@ const Projects = () => {
           <div class="card topcards" data-aos="zoom-in-down" style={{width:18+"rem"}}>
 <img src="notes.png" class="card-img-top" alt="..."/>
 <div class="card-body">
-  <h5 class="card-title">CloudNotes (sem-2)</h5>
-  <p class="card-text">A cloud based MERN Note taking web app with Signup + Login feature with the help of jwt tokens and usage of encryptions for storage of passwords in mongoDB</p>
-  <a href="https://cloud-notes-3pdx.onrender.com/" target='true' class="btn btn-dark d-inline  ">View Demo</a>
-  <a href="https://github.com/preyanshu?tab=repositories&q=notes&type=&language=&sort=" target='true' ><i class="fa-brands fa-github fa-xl mx-5"></i></a>
+  <h5 class="card-title">Video Conference Website (Sem-6)</h5>
+  <p class="card-text">Website used for calling with Friends Family etc and can also be used for Professional Work</p>
+  <a href="https://myvideoconference-2.onrender.com/" target='true' class="btn btn-dark d-inline  ">View Site</a>
+  <a href="https://github.com/Salvadorguns/MyVideoConference" target='true' ><i class="fa-brands fa-github fa-xl mx-5"></i></a>
   
 </div>
 </div>
-       <div class="card topcards card2"data-aos="zoom-in-down" style={{width:18+"rem"}}>
+       {/* <div class="card topcards card2"data-aos="zoom-in-down" style={{width:18+"rem"}}>
 <img src="Screenshot 2023-08-03 130642.png" class="card-img-top" alt="..."/>
 <div class="card-body">
   <h5 class="card-title">BankingSystem (sem-2)</h5>
@@ -38,8 +38,8 @@ const Projects = () => {
   <a href="https://github.com/preyanshu?tab=repositories&q=sparks&type=&language=&sort=" target='true'> <i class="fa-brands fa-github fa-xl mx-5"></i></a>
  
 </div>
-</div>
-       <div class="card" style={{width:18+"rem"}} data-aos="zoom-in-down">
+</div> */}
+       {/* <div class="card" style={{width:18+"rem"}} data-aos="zoom-in-down">
 <img src="Screenshot 2023-08-03 131225.png" class="card-img-top" alt="..."/>
 <div class="card-body">
   <h5 class="card-title">NeuralNav (sem-2)</h5>
@@ -47,9 +47,9 @@ const Projects = () => {
   <a href="https://selfhelpbot.onrender.com/" target='true' class="btn btn-dark d-inline  ">View Demo</a>
   <a href="https://github.com/preyanshu?tab=repositories&q=neuralN&type=&language=&sort=" target='true'> <i class="fa-brands fa-github fa-xl mx-5"></i></a>
  
-</div>
-</div>
-       <div class="card" style={{width:18+"rem"}} data-aos="zoom-in-down">
+</div> */}
+{/* </div> */}
+       {/* <div class="card" style={{width:18+"rem"}} data-aos="zoom-in-down">
 <img src="Screenshot 2023-08-03 project 4.png" class="card-img-top" alt="..."/>
 <div class="card-body">
   <h5 class="card-title">To-do app (sem-2)</h5>
@@ -72,7 +72,7 @@ const Projects = () => {
 
 
       
-       
+        */}
 
        </div>
         </div>
@@ -82,20 +82,20 @@ const Projects = () => {
          
             <div className="icons" data-aos="fade-up">
                 <div className="icon1">
-                <Link id="icon1" className='mainicon' to="https://github.com/preyanshu" target='true'><motion.i initial={{height:0}}
+                <Link id="icon1" className='mainicon' to="https://github.com/Salvadorguns" target='true'><motion.i initial={{height:0}}
     animate={{height:"20px"}} 
     transition={{type:"spring",duration:1.5,delay:0}} style={{color:"white"}}id="mainicon1" class="fa-brands mainicon1 fa-github fa-2xl"></motion.i> </Link>
 
                 </div>
                 <div className="icon2">
-                <Link id="icon2" to="https://www.instagram.com/_preyanshu/" target='true'>
+                <Link id="icon2" to="https://www.instagram.com/shashwat.sharma22/" target='true'>
                 <motion.i initial={{height:0}}
     animate={{height:"20px"}} 
     transition={{type:"spring",duration:1.5,delay:0}}class="fa-brands fa-instagram mainicon fa-2xl"></motion.i> </Link>
 
                 </div>
                 <div className="icon3">
-                <Link id="icon3" to="https://www.linkedin.com/in/preyanshu-mishra-909772212/" target='true'>
+                <Link id="icon3" to="https://www.linkedin.com/in/shashwat-sharma-692128218/" target='true'>
                 <motion.i initial={{height:0}}
     animate={{height:"20px"}} 
     transition={{type:"spring",duration:1.5,delay:0}}class="fa-brands fa-linkedin-in mainicon fa-2xl"></motion.i></Link>
