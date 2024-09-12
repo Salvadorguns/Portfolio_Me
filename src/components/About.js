@@ -30,7 +30,7 @@ const About = () => {
 <div className='ABOUT' data-aos="zoom-in-down" >
     <h1 className='text-center'>About.</h1>
     
-    I'm currently a B.C.A third-year student at Guru Nanak Dev University Regional Campus Gurdaspur, I'm adept at turning concepts into dynamic web applications using MongoDB, Express, React, and Node.js. 
+    I'm currently a MCA student at Lovely Professional University Punjab, I'm adept at turning concepts into dynamic web applications using MongoDB, Express, React, and Node.js. 
 <br /> <br/>
 I'm interested in the whole fullstack web devlopment, My aim is to continuously enhance my skills and contribute innovative solutions to the ever-evolving tech landscape.
 
